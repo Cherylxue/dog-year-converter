@@ -1,0 +1,71 @@
+body {
+    background-color: #99beff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+
+.container {
+    width: 250px;
+    background-color: #ecb0e1;
+    border-radius: 20px;
+    margin: 20px 60px 0 60px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+
+}
+
+.button {
+    background-color: #e58b9d;
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+    align-self: center;
+    border:none;
+    outline: none;
+    box-shadow: 0 3px rgb(180, 180, 187);
+}
+
+.button:hover{
+    border: none;
+    background-color: rgb(225, 122, 143)
+}
+
+
+.button:active{
+    background-color: rgb(217, 89, 114);
+    box-shadow: 0 2px #666;
+    transform: translateY(1px)
+    
+}
+
+
+#input {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 30px;
+    outline-color: #99beff;
+}
+
+#day-result, #month-result, #year-result {
+    color: #533C53;
+    align-self: center;
+}
+
+#title {
+    font-size: 20px;
+    width: 250px;
+    text-align: center;
+    padding: 0 40px 0 40px;
+    margin:20px 60px 0 60px;
+    color: #F0BCC7;
+    text-shadow: 1px 1px gray
+    
+}
+
+#puppy-emoji{
+    text-align: center;
+    font-size: 30px;
+}
